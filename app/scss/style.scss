@@ -1,0 +1,25 @@
+// check
+body {
+  // background-color: black;
+}
+
+// global //
+@import './global/reset';
+@import './global/vars';
+@import './global/mixins';
+@import './global/main';
+// global //
+
+// components | common //
+@import './components/common/header';
+@import './components/common/company';
+@import './components/common/programs';
+@import './components/common/feedback';
+@import './components/common/expert';
+@import './components/common/news';
+@import './components/common/footer';
+// components | common //
+
+// components | home //
+
+// components | home //

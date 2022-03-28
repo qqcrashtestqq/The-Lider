@@ -1,0 +1,190 @@
+.company {
+  padding: 100px 0 100px;
+  background-color: #ffffff;
+
+  &__top {
+    display: flex;
+    margin-bottom: 123px;
+  }
+  &__info {
+    margin-left: 30px;
+  }
+  &__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #3a4661;
+    max-width: 311px;
+    margin-bottom: 50px;
+  }
+  &__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #7281a4;
+    max-width: 570px;
+    margin-bottom: 35px;
+  }
+  &__package {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__number {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 87px;
+    color: #6ca6c1;
+  }
+  &__organization {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #3f3f3f;
+  }
+  &__organization--left {
+    margin-left: 12px;
+  }
+
+  &__table {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #3a4661;
+    margin-bottom: 50px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box {
+    background: #f5f8f9;
+    max-width: 370px;
+    padding: 120px 85px 188px 30px;
+  }
+  &-top {
+    max-width: 255px;
+  }
+  &-top::before {
+    position: absolute;
+    content: "";
+    top: -54px;
+    left: 0;
+    width: 38px;
+    height: 37px;
+    background-image: url("../../images/company/piple.png");
+  }
+  &-center::before {
+    position: absolute;
+    content: "";
+    top: -54px;
+    left: 0;
+    width: 36px;
+    height: 37px;
+    background-image: url("../../images/company/glass.png");
+  }
+  &-bottom::before {
+    position: absolute;
+    content: "";
+    top: -54px;
+    left: 0;
+    width: 36px;
+    height: 37px;
+    background-image: url("../../images/company/document.png");
+  }
+
+  &__subtitle {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3f3f3f;
+    margin-bottom: 42px;
+    position: relative;
+  }
+  &__texts {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #3f3f3f;
+    max-width: 301px;
+  }
+}
+@media (max-width: 1145px) {
+  .company__box {
+    background: #f5f8f9;
+    max-width: 315px;
+    padding: 120px 85px 188px 30px;
+    text-align: center;
+  }
+  .company-top::before {
+    left: 77px;
+  }
+  .company-center::before {
+    left: 77px;
+  }
+  .company-bottom::before {
+    left: 77px;
+  }
+}
+@media (max-width: 1043px) {
+  .company__number {
+    font-size: 48px;
+  }
+  .company__img {
+    max-width: 465px;
+  }
+}
+@media (max-width: 973px) {
+  .company__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .company__box {
+    margin-bottom: 20px;
+    padding: 120px 85px 38px 30px;
+  }
+}
+@media (max-width: 816px) {
+  .company__img {
+    max-height: 400px;
+  }
+}
+@media (max-width: 776px) {
+  .company__package {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .company__text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 696px) {
+  .company__top {
+    display: flex;
+    flex-direction: column;
+  }
+  .company__package {
+    display: flex;
+    align-items: self-start;
+  }
+  .company__img {
+    max-width: 100%;
+    max-height: 505px;
+  }
+}

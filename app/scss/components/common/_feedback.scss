@@ -1,0 +1,53 @@
+.feedback {
+  padding: 100px 0 100px;
+  background-image: url("../../images/expert__bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    color: #ffffff;
+    max-width: 574px;
+  }
+}
+@media (max-width: 1031px) {
+  .get-contacts-aside {
+    margin-left: 22px;
+  }
+  .get-contacts__form {
+    padding: 65px 92px 65px 65px;
+  }
+}
+@media (max-width: 1016px) {
+  .get-contacts-aside {
+    margin-left: -6px;
+  }
+  .feedback__title {
+    max-width: 533px;
+  }
+}
+@media (max-width: 927px) {
+  .get-contacts-aside {
+    margin-left: 17px;
+  }
+  .get-contacts__form {
+    padding: 65px 92px 65px 44px;
+  }
+}
+@media (max-width: 875px) {
+  .feedback__inner {
+    display: flex;
+    flex-direction: column;
+  }
+  .get-contacts-aside {
+    display: none;
+  }
+}

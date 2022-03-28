@@ -1,0 +1,114 @@
+.programs {
+  padding: 100px 0 100px;
+  background-color: #f5f8f9;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #3a4661;
+    max-width: 478px;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7281a4;
+    margin-bottom: 19px;
+    margin-left: 17px;
+  }
+  &__country {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #3f3f3f;
+    margin-left: 17px;
+  }
+  &__price {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7281a4;
+    margin-left: 17px;
+  }
+  &__btn {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ffe66d;
+    padding: 5px 44px;
+    margin-left: 33px;
+    display: inline-flex;
+    overflow: hidden;
+  }
+  &__btn:hover {
+    background-color: #6ca6c1;
+    color: #fff;
+    transition: all 0.8s;
+  }
+  &__terms {
+    display: flex;
+    align-items: center;
+  }
+  &__span {
+    color: #7281a4;
+  }
+  &__box {
+    margin-bottom: 55px;
+    border-left: 4px solid #6ca6c1;
+  }
+}
+@media (max-width: 1111px) {
+  .programs__img {
+    margin-top: 119px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 1028px) {
+  .programs__img {
+    margin-top: 209px;
+    max-width: 402px;
+  }
+}
+@media (max-width: 948px) {
+  .programs__content {
+    display: flex;
+    flex-direction: column;
+  }
+  .programs__img {
+    display: none;
+  }
+}
+@media (max-width: 430px) {
+  .programs__btn {
+    padding: 5px 44px 5px 28px;
+  }
+}
+@media (max-width: 360px) {
+  .programs__price {
+    text-align: end;
+  }
+  .programs__btn {
+    padding: 5px 44px 5px 17px;
+  }
+}

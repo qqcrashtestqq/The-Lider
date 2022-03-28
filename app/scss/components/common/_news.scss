@@ -1,0 +1,50 @@
+.news {
+  background-color: #e5e5e5;
+  padding: 123px 0 50px;
+  &__title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    color: #3a4661;
+    margin-bottom: 50px;
+  }
+  &__item-photo {
+    margin-bottom: 20px;
+  }
+  &__item {
+    cursor: pointer;;
+  }
+  &__item-date {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7281a4;
+    margin-bottom: 10px;
+  }
+  &__item-title {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3f3f3f;
+    max-width: 344px;
+    margin-bottom: 15px;
+  }
+  &__item-text {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #3f3f3f;
+  }
+}
+
